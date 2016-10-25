@@ -26,4 +26,6 @@
 
 ## Fails ##
 
-* 
+* python mkmov.py 2d --min -1 --max 1 -o /home/albert/Work/mkmov/movies/NATL60-CJM165_y2012_curloverf.mov --tstart '2012-06-14' --tdelta '1_D' --x2d nav_lon --y2d nav_lat socurloverf NATL60/NATL60-CJM165_y2012.1d_curloverf.nc
+
+* after 45 frames => "Processus arrêté"
