@@ -11,7 +11,7 @@
 ## Successful example ##
 
 * python mkmov.py 2d --bias  time_counter --bcmapcentre --cmap seismic --min -.4 --max .7  --lmask 0 zos examples/cordex24-ERAI01_1d_20040101_20040111_grid_T_2D.nc examples/cordex24-ERAI01_1d_20040101_20040111_grid_T_2D.nc
-* result :
+* result : https://youtu.be/J0xaRKMl5GQ
 
 ## My first attempt ##
 
