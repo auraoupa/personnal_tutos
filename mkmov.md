@@ -16,12 +16,13 @@
 ## My first attempt ##
 
 * python mkmov.py 2d  --min 0 --max 1 -o /home/albert/Work/mkmov/movies/NATL60-CJM165-TRCsurf_y2013.mov TRC NATL60-TRC-2013/NATL60-CJM165_y2013.1d_ptrcT_surf.nc
-* result : 
+* result : https://youtu.be/9EdpYhSjr7Y
 
 ## Other features ##
 
-* same movie with date on it : 
-* result : 
+* same movie with date on it : python mkmov.py 2d  --min 0 --max 1 -o /home/albert/Work/mkmov/movies/NATL60-CJM165-TRCsurf_y2013.mov --tstart '2013-01-02' --tdelta '1_D' --x2d nav_lon --y2d nav_lat TRC NATL60-TRC-2013/NATL60-CJM165_y2013.1d_ptrcT_surf.nc
+
+* result : https://youtu.be/piL4MsI8V4A
 
 ## Fails ##
 
