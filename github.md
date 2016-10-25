@@ -15,3 +15,4 @@ When you want your local repository to be updated :
 ## Other stuff ##
 
 When you want to get rid of a file :
+ * git rm
