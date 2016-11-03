@@ -24,6 +24,10 @@
 
 * result : https://youtu.be/piL4MsI8V4A
 
+## The follwing successful attempts ##
+
+* python mkmov.py 2d --min -5 --max 5 --x2d nav_lon --y2d nav_lat -o /home/albert/Work/mkmov/movies/NATL60QNE-CJM165_y2012.1d_curloverf.mov socurloverf ~/Data/NATL60/NATL60-CJM165-S/1d/2012/NATL60QNE-CJM165_y2012.1d_curloverf.nc
+
 ## Fails ##
 
 * python mkmov.py 2d --min -1 --max 1 -o /home/albert/Work/mkmov/movies/NATL60-CJM165_y2012_curloverf.mov --tstart '2012-06-14' --tdelta '1_D' --x2d nav_lon --y2d nav_lat socurloverf NATL60/NATL60-CJM165_y2012.1d_curloverf.nc
