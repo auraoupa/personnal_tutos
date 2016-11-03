@@ -24,13 +24,11 @@
 
 * result : https://youtu.be/piL4MsI8V4A
 
-## The follwing successful attempts ##
+## Advices ##
 
-* python mkmov.py 2d --min -5 --max 5 --x2d nav_lon --y2d nav_lat -o /home/albert/Work/mkmov/movies/NATL60QNE-CJM165_y2012.1d_curloverf.mov socurloverf ~/Data/NATL60/NATL60-CJM165-S/1d/2012/NATL60QNE-CJM165_y2012.1d_curloverf.nc
+* moins de 400 frames
+* option --x2d nav_lon --y2d nav_lat obligatoire pour réduire le nombre de pixels
+* sensibilité aux bornes min et max ...
+* pour les fichiers netcdf produits par 1 cdftool ne pas oublier l'option -nc4
 
-## Fails ##
 
-* python mkmov.py 2d --min -1 --max 1 -o /home/albert/Work/mkmov/movies/NATL60-CJM165_y2012_curloverf.mov --tstart '2012-06-14' --tdelta '1_D' --x2d nav_lon --y2d nav_lat socurloverf NATL60/NATL60-CJM165_y2012.1d_curloverf.nc
-  * after 45 frames => "Processus arrêté"
-  * explication : fichier netcdf produit par le cdftool cdfcurl pas compatible, mettre l'option -nc4
-  * de plus, fichier trop gros, faire les films avec les quartiers de NATL60 pas plus d'un an et sans oublier les options --x2d --y2d (projection sur la grille = moins de pixels)
