@@ -18,6 +18,9 @@
 * python mkmov.py 2d  --min 0 --max 1 -o /home/albert/Work/mkmov/movies/NATL60-CJM165-TRCsurf_y2013.mov TRC NATL60-TRC-2013/NATL60-CJM165_y2013.1d_ptrcT_surf.nc
 * result : https://youtu.be/9EdpYhSjr7Y
 
+## All the videos ##
+
+
 ## Test with stitch, plots produced elsewhere ##
 * python mkmov.py stitch -o ~/Data/NATL60/NATL60-CJM165-MOVIES/test_stitch.mov ~/Data/NATL60/PLOTS/TRCsurf_???.png
 * result : https://youtu.be/t9nlJSXDo7U
