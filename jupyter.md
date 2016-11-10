@@ -11,4 +11,5 @@
 * launch locally this ssh command : ssh -L 8888:localhost:9999 -N -t -x youridmeolkerg@meolkerg.hmg.inpg.fr
 * finally in your local browser, open localhost:9999 
 
-## Do not forget to shut down the scripts in the the front page after closing them, or you will have to kill the processor
+
+* Do not forget to shut down the scripts in the the front page after closing them, or you will have to kill the processor
