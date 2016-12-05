@@ -7,6 +7,7 @@
 
 * git clone https://github.com/chrisb13/mkmov
 * conda install -c menpo ffmpeg=3.1.3
+* conda install -c conda-forge ffmpeg=2.8.6
 
 ## Successful example ##
 
