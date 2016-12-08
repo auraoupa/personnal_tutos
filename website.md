@@ -4,7 +4,7 @@
 
 ##Layout :
 
-  - default :
+  * default :
 
    * nav_bar.html
    * footer.html   
@@ -12,18 +12,18 @@
 
 ##Architecture du site :
 
-  - page d'accueil : index.html = carousel + welcome (= petit texte + icones)
-  - page About : about/index.html
-  - page People : people/index.html 
-  - page Projects : projects/index.html
-  - pages projets individuels : projects/sobums.md
-  - page Code : code.md
-  - page Data : data.md
-  - page Publications : publications/index.html
-  - page Job Offers : jobs.md
-  - page News : blog/index.html
-  - page Contact : contact/index.html
-  - pages scientifiques :
+  * page d'accueil : index.html = carousel + welcome (= petit texte + icones)
+  * page About : about/index.html
+  * page People : people/index.html 
+  * page Projects : projects/index.html
+  * pages projets individuels : projects/sobums.md
+  * page Code : code.md
+  * page Data : data.md
+  * page Publications : publications/index.html
+  * page Job Offers : jobs.md
+  * page News : blog/index.html
+  * page Contact : contact/index.html
+  * pages scientifiques :
     * unravel.md
     * forecast.md
     * climate.md
@@ -31,21 +31,21 @@
 
 ##Rajouter une image dans le carousel :
 
-  - dans _includes/carousel.html :  rajouter ou modifier le nombre d'images
+  * dans _includes/carousel.html :  rajouter ou modifier le nombre d'images
 
- <li data-target="#carousel-generic" data-slide-to="4"></li>
+     <li data-target="#carousel-generic" data-slide-to="4"></li>
 
-  - dans _data/carousel.yml : rajouter un paragraphe 
+  * dans _data/carousel.yml : rajouter un paragraphe 
 
- - title :
-   pic : assets/img/carousel/chaos3.png
-   picg : assets/img/carousel/chaos3g.png
-   picm : assets/img/carousel/chaos3m.png
-   pics : assets/img/carousel/chaos3s.png
-   text : Quantifying chaos and uncertainties in the ocean evolution
-   link : forecast
-   colorf : black
-   colorb : white
+     - title :
+       pic : assets/img/carousel/chaos3.png
+       picg : assets/img/carousel/chaos3g.png
+       picm : assets/img/carousel/chaos3m.png
+       pics : assets/img/carousel/chaos3s.png
+       text : Quantifying chaos and uncertainties in the ocean evolution
+       link : forecast
+       colorf : black
+       colorb : white
 
 dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien sous le "Read more", la couleur du texte et la couleur en fond du texte.
 
