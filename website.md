@@ -155,7 +155,7 @@ en indiquant le titre du projet, l'adresse de la page et le texte en markdown.
 
 ##Rajouter une news :
 
-  - dans le dossier _posts, créer un fichier dans le nom commence par la date : year-month-day-title-of-the-news.md et le remplir comme suit : 
+  - dans le dossier _posts, créer un fichier dont le nom commence par la date : year-month-day-title-of-the-news.md et le remplir comme suit : 
 
 
 ```html
