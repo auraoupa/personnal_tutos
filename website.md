@@ -56,13 +56,13 @@
 
 dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien sous le "Read more", la couleur du texte et la couleur en fond du texte.
 
-  - dans assets/img/carousel : déposer les images 
+  * dans assets/img/carousel : déposer les images 
 
 ##Rajouter une personne dans la page people :
 
  * si membre permanent :
 
-    - dans _data/group.yml : rajouter un paragraphe
+   * dans _data/group.yml : rajouter un paragraphe
 
 
 ```html
@@ -79,7 +79,7 @@ dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x
 
 dans lequel on indique le nom, si besoin le titre, le nom de l'image qui montre l'adresse mail (à générer avec script email2gif), le nom des photos n&b et couleur, le poste, si besoin l'adresse du site web perso et le numero de téléphone.
 
-     - dans assets/img/people : deposer les photos et l'image de l'adresse mail
+   * dans assets/img/people : deposer les photos et l'image de l'adresse mail
 
   * si membre non-permanent : mêmes manips mais dans le fichier _data/nonperm.yml
 
