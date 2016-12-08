@@ -41,6 +41,7 @@
   * dans _data/carousel.yml : rajouter un paragraphe 
 
 
+```html
     - title :
       pic : assets/img/carousel/chaos3.png
       picg : assets/img/carousel/chaos3g.png
@@ -50,6 +51,8 @@
       link : forecast
       colorf : black
       colorb : white
+```
+
 
 dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien sous le "Read more", la couleur du texte et la couleur en fond du texte.
 
@@ -61,7 +64,9 @@ dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x
 
     - dans _data/group.yml : rajouter un paragraphe
 
-"- name : Thierry Penduff
+
+```html
+- name : Thierry Penduff
   title : Head of the Team
   email : penduff.png
   image_nb : Penduff_nb.jpg
@@ -69,6 +74,8 @@ dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x
   post : Researcher (CNRS)
   website : http://lgge.osug.fr/personnels/penduff_thierry/FRANCAIS/
   phone : +33 (0) 4 76 82 86 54"
+```
+
 
 dans lequel on indique le nom, si besoin le titre, le nom de l'image qui montre l'adresse mail (à générer avec script email2gif), le nom des photos n&b et couleur, le poste, si besoin l'adresse du site web perso et le numero de téléphone.
 
@@ -81,22 +88,34 @@ dans lequel on indique le nom, si besoin le titre, le nom de l'image qui montre 
 
   - dans _data/projects.yml : rajouter un paragraphe
 
-"- title : AtlantOS
+
+```html
+- title : AtlantOS
   image :
   date : 2015-2019
   text : The vision of AtlantOS is to improve and innovate Atlantic observing by using the Framework of Ocean Observing to obtain an international, more sustainable, more efficient, more integrated, and fit-for-purpose system. Hence, the AtlantOS initiative will have a long-lasting and sustainable contribution to the societal, economic and scientific benefit arising from this integrated approach. This will be achieved by improving the value for money, extent, completeness, quality and ease of access to Atlantic Ocean data required by industries, product supplying agencies, scientist and citizens.
   link : https://www.atlantos-h2020.eu/
   ancre : atlantos"
+```
+
 
 dans lequel on indique le titre du projet, si besoin le nom d'une image, les dates du projet, un texte descriptif, un lien et un mot-clé pour désigner le projet (permet de naviguer à l'intérieur de la page)
 
   - dans _includes/navbar.html : rajouter une ligne
 
-"<li><a href="{{site.baseurl}}/projects/nouveau_projet" class={{researchDropdownClass}}>Nouveau Projet</a></li>"
+
+```html
+<li><a href="{{site.baseurl}}/projects/nouveau_projet" class={{researchDropdownClass}}>Nouveau Projet</a></li>"
+```
+
 
 permet d'accéder à la page du projet, ou rajouter la ligne
 
-"<li><a href="{{site.baseurl}}/projects#ancre" class={{researchDropdownClass}}>Nouveau Projet</a></li>"
+
+```html
+<li><a href="{{site.baseurl}}/projects#ancre" class={{researchDropdownClass}}>Nouveau Projet</a></li>"
+```
+
 
 pour accéder dans la page all projects au paragraphe correspondant au nouveau projet.
 
@@ -104,7 +123,8 @@ pour accéder dans la page all projects au paragraphe correspondant au nouveau p
 
   - dans le dossier projects, rajouter un document markdown :
 
-"
+
+```html
 ---
 layout: pagemd
 title: SOBUMS
@@ -115,6 +135,8 @@ The Southern Ocean (oceans south of 30°S) plays a key role in global biogeochem
 
 
 <img class="img-responsive img-centered" src="https://meom-group.github.io/assets/img/projects/sobums-meijers.png" alt="A changing Southern Ocean."/> "
+```
+
 
 en indiquant le titre du projet, l'adresse de la page et le texte en markdown.
 
@@ -122,16 +144,22 @@ en indiquant le titre du projet, l'adresse de la page et le texte en markdown.
 
   - dans jobs.md, ajouter un paragraphe du type :
 
-"### PhD grants
+
+```html
+### PhD grants
 
  - [Stochastic variability of oceanic water masses](http://www.adum.fr/as/ed/voirproposition.pl?langue=fr&site=edtue&matricule_prop=11736);  contact : Thierry Penduff."
+```
+
 
 
 ##Rajouter une news :
 
   - dans le dossier _posts, créer un fichier dans le nom commence par la date : year-month-day-title-of-the-news.md et le remplir comme suit : 
 
-"---
+
+```html
+---
 title: New MEOM website !
 featured:
 layout: page
@@ -141,7 +169,7 @@ link:
 We are proud to open our new public website today.
 
 Thank to all the team members that contributed to this effort !"
-
+```
 
 en indiquant le titre de la news, une éventuelle image, un éventuel lien et le texte en syntaxe markdown
 
