@@ -12,8 +12,8 @@ Il est aussi possible de faire un git clone du répertoire, de modifier les fich
 ##Différents types de pages :
 
   * page en html (ex: index.html)
-  * page en markdown : c'est du html simplifié pour pas s'ennuyer avec toutes les balises et syntaxes rébarbatives, la mise en page est faite dans un fichier à part le layout
-  * les includes : ce sont des éléments qui se répetent dans toutes les pages comme l'en-tête, le menu de navigation ou le bas de page
+  * page en markdown : c'est du html simplifié, (ex: nemo.md) pour pas s'ennuyer avec toutes les balises et syntaxes rébarbatives, la mise en page est faite dans un fichier à part, le layout (ex _layout/default.html)
+  * les includes : ce sont des éléments qui se répetent dans toutes ou quelques pages comme l'en-tête, le menu de navigation ou le bas de page, on les trouve dans le répertoire _includes (ex: footer.html)
 
 
 ##Architecture du site :
