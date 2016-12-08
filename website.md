@@ -6,7 +6,8 @@ Tout d'abord pour pouvoir modifier le site web de l'équipe il faut :
   * avoir les droits d'édition sur le dossier https://github.com/meom-group/meom-group.github.io (Julien envoie l'autorisation)
   
 Ensuite il suffit de modifier en ligne les fichiers présents dans ce repertoire pour modifier le site.
-Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site.
+
+Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site (il est ainsi plus facile d'ajouter des fichiers images par exemple)
 
 
 ##Architecture du site :
