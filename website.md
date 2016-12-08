@@ -33,8 +33,8 @@
 
   * dans _includes/carousel.html :  rajouter ou modifier le nombre d'images
 ```html
-    <li data-target="#carousel-generic" data-slide-to="4"></li>
-    ```
+    <li data-target="#carousel-generic" data-slide-to="4"></li>```
+    
   * dans _data/carousel.yml : rajouter un paragraphe 
 
 
