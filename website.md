@@ -1,13 +1,12 @@
-##Différents types de pages :
+##Prérequis
 
-  * page en markdown avec un layout
-
-##Layout :
-
-  * default :
-
-   * nav_bar.html
-   * footer.html   
+Tout d'abord pour pouvoir modifier le site web de l'équipe il faut :
+  * avoir un compte github (ça prend 2 sec !)
+  * s'affilier au groupe meom-group
+  * avoir les droits d'édition sur le dossier https://github.com/meom-group/meom-group.github.io (Julien envoir l'autorisation)
+  
+Ensuite il suffit de modifier en ligne les fichiers présents dans ce repertoire pour modifier le site.
+Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site.
 
 
 ##Architecture du site :
@@ -54,7 +53,7 @@
 ```
 
 
-dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien sous le "Read more", la couleur du texte et la couleur en fond du texte.
+dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien vers lequel on accèdera en cliquant sur le "Read more", la couleur du texte et la couleur en fond du texte.
 
   * dans assets/img/carousel : déposer les images 
 
@@ -174,3 +173,13 @@ Thank to all the team members that contributed to this effort !"
 en indiquant le titre de la news, une éventuelle image, un éventuel lien et le texte en syntaxe markdown
 
 
+##Différents types de pages :
+
+  * page en markdown avec un layout
+
+##Layout :
+
+  * default :
+
+   * nav_bar.html
+   * footer.html   
