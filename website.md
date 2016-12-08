@@ -176,11 +176,6 @@ en indiquant le titre de la news, une éventuelle image, un éventuel lien et le
 
 ##Différents types de pages :
 
-  * page en markdown avec un layout
-
-##Layout :
-
-  * default :
-
-   * nav_bar.html
-   * footer.html   
+  * page en html (ex: index.html)
+  * page en markdown : c'est du html simplifié pour pas s'ennuyer avec toutes les balises et syntaxes rébarbatives, la mise en page est faite dans un fichier à part le layout
+  * les includes : ce sont des éléments qui se répetent dans toutes les pages comme l'en-tête, le menu de navigation ou le bas de page
