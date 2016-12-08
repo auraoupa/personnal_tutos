@@ -33,19 +33,21 @@
 
   * dans _includes/carousel.html :  rajouter ou modifier le nombre d'images
 
-     <li data-target="#carousel-generic" data-slide-to="4"></li>
+
+    <li data-target="#carousel-generic" data-slide-to="4"></li>
 
   * dans _data/carousel.yml : rajouter un paragraphe 
 
-     - title :
-       pic : assets/img/carousel/chaos3.png
-       picg : assets/img/carousel/chaos3g.png
-       picm : assets/img/carousel/chaos3m.png
-       pics : assets/img/carousel/chaos3s.png
-       text : Quantifying chaos and uncertainties in the ocean evolution
-       link : forecast
-       colorf : black
-       colorb : white
+
+    - title :
+      pic : assets/img/carousel/chaos3.png
+      picg : assets/img/carousel/chaos3g.png
+      picm : assets/img/carousel/chaos3m.png
+      pics : assets/img/carousel/chaos3s.png
+      text : Quantifying chaos and uncertainties in the ocean evolution
+      link : forecast
+      colorf : black
+      colorb : white
 
 dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien sous le "Read more", la couleur du texte et la couleur en fond du texte.
 
