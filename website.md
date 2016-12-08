@@ -9,6 +9,12 @@ Ensuite il suffit de modifier en ligne les fichiers présents dans ce repertoire
 
 Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site (il est ainsi plus facile d'ajouter des fichiers images par exemple)
 
+##Différents types de pages :
+
+  * page en html (ex: index.html)
+  * page en markdown : c'est du html simplifié pour pas s'ennuyer avec toutes les balises et syntaxes rébarbatives, la mise en page est faite dans un fichier à part le layout
+  * les includes : ce sont des éléments qui se répetent dans toutes les pages comme l'en-tête, le menu de navigation ou le bas de page
+
 
 ##Architecture du site :
 
@@ -57,6 +63,40 @@ Il est aussi possible de faire un git clone du répertoire, de modifier les fich
 dans lequel il faut donner le nom des 4 images (tailles 2052x340, 1000x340, 500x340, 250x340) , le texte, un lien vers lequel on accèdera en cliquant sur le "Read more", la couleur du texte et la couleur en fond du texte.
 
   * dans assets/img/carousel : déposer les images 
+  
+##Rajouter une nouvelle page scientifique à laquelle on accède via une image du carousel
+
+  * faire les étapes du paragraphe précédent
+  * créer une page markdown comme :
+  
+
+```html
+---
+layout: pagemd
+title: Exploring the ocean fine scale dynamics
+permalink: /unravel/
+prevtext: About the MEOM team
+prevlink:
+nextext: Quantifying choas and uncertainties in the ocean evolution
+nextlink: forecast
+---
+
+
+
+*Fine scale* ocean dynamics plays a key role in the climate machinery through various scale interaction mechanisms. Fine-scale ocean dynamics refer to ocean physical processes occuring at scales smaller than 200km, in the open ocean. This includes a fraction of *mesoscale* processes, with scales close to the first internal Rossby radius (20 to 200km). At mesoscales, oceans are populated by waves motions and coherent eddies, that contribute actively to transporting matter across ocean basins and from equator to poles. Fine scale processes also comprise *submesoscale* processes, with scale smaller than the first internal Rossby radius (1-20km). At submesoscales, oceans are populated by intense vortices, fronts and filaments, all of which are contributing to vertical exchanges between the ocean interior and the surface, fluxing in particular nutrients from the ocean sub-surface to the sun-lit surface layers where primary production occurs.
+```
+
+
+en indiquant le titre de la nouvelle page, le lien déjà indiqué dans le carousel, et si besoin le lien de la page précédente et suivant et enfin le texte de la page en markdown
+
+  * dans _includes/footer rajouter :
+
+
+```html
+<li> <a href="{{site.baseurl}}/unravel">Exploring ocean fine scales motions</a> </li>
+```
+
+en modifiant le titre et le lien de la nouvelle page.
 
 ##Rajouter une personne dans la page people :
 
@@ -174,8 +214,3 @@ Thank to all the team members that contributed to this effort !"
 en indiquant le titre de la news, une éventuelle image, un éventuel lien et le texte en syntaxe markdown
 
 
-##Différents types de pages :
-
-  * page en html (ex: index.html)
-  * page en markdown : c'est du html simplifié pour pas s'ennuyer avec toutes les balises et syntaxes rébarbatives, la mise en page est faite dans un fichier à part le layout
-  * les includes : ce sont des éléments qui se répetent dans toutes les pages comme l'en-tête, le menu de navigation ou le bas de page
