@@ -7,7 +7,35 @@ Tout d'abord pour pouvoir modifier le site web de l'équipe il faut :
   
 Ensuite il suffit de modifier en ligne les fichiers présents dans ce repertoire pour modifier le site.
 
-Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site (il est ainsi plus facile d'ajouter des fichiers images par exemple)
+Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site (il est ainsi plus facile d'ajouter des fichiers images par exemple), la procédure est expliquée ci-dessous
+
+##Modifications en local
+
+La première fois, il faut d'abord "cloner" le répertoire, c'est-à-dire le télécharger en local :
+
+
+```bash
+git clone https://github.com/meom-group/meom-group.github.io.git
+```
+
+Un répertoire meom-group.github.io est ainsi créé.
+On peut alors modifier les fichiers ou en ajouter.
+Pour transmettre les modifs, 3 lignes de code sont nécessaires :
+
+
+```bash
+git add .
+git commit -m "commentaire à joindre aux modifs"
+git push
+```
+
+Avant de faire les prochaines modifs, pour prendre en compte celles qui on été faites entre-temps par d'autres personnes, une mise à jour est nécessaire :
+
+
+```bash
+git pull
+```
+
 
 ##Différents types de pages :
 
