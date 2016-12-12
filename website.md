@@ -1,13 +1,18 @@
+#Le fonctionnement du site
+
 ##Prérequis
 
 Tout d'abord pour pouvoir modifier le site web de l'équipe il faut :
   * avoir un compte github (ça prend 2 sec !)
   * s'affilier au groupe meom-group (Julien envoie l'invitation)
   * avoir les droits d'édition sur le dossier https://github.com/meom-group/meom-group.github.io (Julien envoie l'autorisation)
-  
-Ensuite il suffit de modifier en ligne les fichiers présents dans ce repertoire pour modifier le site.
 
-Il est aussi possible de faire un git clone du répertoire, de modifier les fichiers en local et de faire un git push pour que les modifs soient envoyées au site (il est ainsi plus facile d'ajouter des fichiers images par exemple), la procédure est expliquée ci-dessous
+Ces deux dernières étapes sont en fait facultatives, n'importe qui peut proposer des modifications, les éditeurs se réservent ensuite le droit de les accepter (merge) ou non. Mais, pour les gens de l'équipe c'est quand même ùieux si vous faites partie du groupe meom !
+ 
+Ensuite, deux solutions :
+  * soit on modifie en ligne les fichiers présents dans ce repertoire afin de modifier le site (en cliquant sur le nom du fichier en question puis sur l'icone crayon "edit this file")
+  * soit en téléchargeant une copie de tout le répertoire sur votre ordinateur, en local. Cela permet d'ajouter des fichiers et images plus facilement. (procédure ci-dessous)
+
 
 ##Modifications en local
 
@@ -20,7 +25,7 @@ git clone https://github.com/meom-group/meom-group.github.io.git
 
 Un répertoire meom-group.github.io est ainsi créé.
 On peut alors modifier les fichiers ou en ajouter.
-Pour transmettre les modifs, 3 lignes de code sont nécessaires :
+Pour transmettre les modifs effectuées, 3 lignes de code sont nécessaires :
 
 
 ```bash
@@ -42,9 +47,11 @@ git pull
   * page en html (ex: index.html)
   * page en markdown : c'est du html simplifié, (ex: nemo.md) pour pas s'ennuyer avec toutes les balises et syntaxes rébarbatives, la mise en page est faite dans un fichier à part, le layout (ex _layout/default.html)
   * les includes : ce sont des éléments qui se répetent dans toutes ou quelques pages comme l'en-tête, le menu de navigation ou le bas de page, on les trouve dans le répertoire _includes (ex: footer.html)
-
+  * les fichiers en .yml : ils permettent de séparer encore une fois le contenu de la forme. Ils sont appellés dans les fichiers html par l'intermédiaire d'une boucle. A chaque fois qu'on rajoute des informations dans ce fichier yml, cela rajoute du contenu dans la page html
 
 ##Architecture du site :
+
+Voici la correspondance entre les pages du site et les fichiers dans le dossier meom-group.github.io :
 
   * page d'accueil : index.html = carousel + welcome (= petit texte + icones)
   * page About : about/index.html
@@ -62,6 +69,8 @@ git pull
     * forecast.md
     * climate.md
     
+
+#Quelques actions de mises à jour qui risquent de revenir régulièrement
 
 ##Rajouter une image dans le carousel :
 
