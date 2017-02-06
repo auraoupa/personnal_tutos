@@ -85,7 +85,7 @@ La case suivante sera une case à cocher HTML cochée.
 
 La fonction `run()` ne vous oblige pas à aller courir!
 
-```ruby ( ou nom de la syntaxe correspondant à votre code )-->
+```ruby 
 def foobar
 puts "Hello world!"
 end
