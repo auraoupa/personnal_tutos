@@ -4,6 +4,9 @@
 
 ## Basic commands ##
 
+Using it at work :
+    git config --global http.proxy  https://www-cache.ujf-grenoble.fr:3128
+
 When you want to make a local copy of a online repository :
  * git clone https://etc...
 
