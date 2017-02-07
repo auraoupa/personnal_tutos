@@ -25,7 +25,18 @@ When you want your local repository to be updated :
 When you want to get rid of a file :
 
     git rm
+    
+## Synchronise a local repo with github
+
+ * initialise with git init, git add., git commit ... locally
+ * create a repo on github
  
+         git remote add origin https://github.com/auraoupa/CMEMS.git 
+         git pull origin master m
+         git push origin masteraster
+         
+    
+     
 ## Other stuff ##
 
 When you want to produce a personal web page :
