@@ -13,3 +13,5 @@
 
 
 * Do not forget to shut down the scripts in the the front page after closing them, or you will have to kill the processor
+
+Quand un module ne se charge pas alors que l'install conda est ok, relancer jupyter-notebook
