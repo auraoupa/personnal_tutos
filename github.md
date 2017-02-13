@@ -33,7 +33,7 @@ When you want to get rid of a file :
  
          git remote add origin https://github.com/auraoupa/CMEMS.git 
          git pull origin master 
-         git push origin master master
+         git push origin master
          
     
      
