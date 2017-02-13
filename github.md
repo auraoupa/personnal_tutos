@@ -32,8 +32,8 @@ When you want to get rid of a file :
  * create a repo on github
  
          git remote add origin https://github.com/auraoupa/CMEMS.git 
-         git pull origin master m
-         git push origin masteraster
+         git pull origin master 
+         git push origin master master
          
     
      
