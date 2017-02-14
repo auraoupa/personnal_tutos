@@ -14,4 +14,8 @@
 
 * Do not forget to shut down the scripts in the the front page after closing them, or you will have to kill the processor
 
-Quand un module ne se charge pas alors que l'install conda est ok, relancer jupyter-notebook
+## Trucs et astuce
+
+* Quand un module ne se charge pas alors que l'install conda est ok, relancer jupyter-notebook
+* relancer l'output d'une cellule précedente : \_7 : output idem que cellule 7
+* afficher les versions des outils utilisés
