@@ -16,6 +16,11 @@
 
 ## Trucs et astuce
 
-* Quand un module ne se charge pas alors que l'install conda est ok, relancer jupyter-notebook
+* Quand un module ne se charge pas alors que l'install conda est ok, relancer jupyter-notebook, et surtout le rajouter localement avec 
+
+      import sys
+      print(sys.path)
+      sys.path.insert(0,"/home/albert/lib/python")
+      
 * relancer l'output d'une cellule précedente : \_7 : output idem que cellule 7
 * afficher les versions des outils utilisés
