@@ -35,6 +35,9 @@ When you want to get rid of a file :
          git pull origin master 
          git push origin master
          
+ * when the remote name has changed
+       
+          git remote set-url origin https://github.com/auraoupa/CMEMS-notebooks.git
     
      
 ## Other stuff ##
