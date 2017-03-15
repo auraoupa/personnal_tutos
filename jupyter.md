@@ -24,3 +24,10 @@
       
 * relancer l'output d'une cellule précedente : \_7 : output idem que cellule 7
 * afficher les versions des outils utilisés
+
+## Faire une présentation en jupyter
+
+ * git clone https://github.com/hakimel/reveal.js
+ * open a jupyter notebook
+ * prepare slides with View -> Cell Toolbar -> Slideshow
+ * run jupyter-nbconvert --to slides slideshow.ipynb --reveal-prefix=reveal.js --post serve
