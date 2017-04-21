@@ -55,3 +55,8 @@ When you want to produce another web page :
     make the branch gh-pages the default branch (in settings/branches)
     put some html in the gh-pages branch
     see your web page at http://yourname.github.io/repo
+
+
+## Authorization for private repositories
+
+ https://education.github.com/discount_requests/new
