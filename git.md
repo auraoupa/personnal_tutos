@@ -22,6 +22,7 @@
   * git remote add origin https://github.com/auraoupa/examples.git 
   * git pull origin master 
   * git push origin master
+  * git remote show origin
   
 ## Branching
 
