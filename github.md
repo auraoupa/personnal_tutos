@@ -60,3 +60,7 @@ When you want to produce another web page :
 ## Authorization for private repositories
 
  https://education.github.com/discount_requests/new
+
+## Download a single file from github
+
+curl -O https://raw.githubusercontent.com/lesommer/notebooks/master/path/to/notebook.ipynb => marche pas ...
