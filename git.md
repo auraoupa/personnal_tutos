@@ -36,3 +36,4 @@
 
 ## Removing definitively a file
   * git filter-branch --force --index-filter \ 'git rm --cached --ignore-unmatch report2-2017-05/Misc/2017-05-30-AA-differences-between-Mercator-and-Drakkar-settings-for-ORCA12.pdf'
+  * git push origin --force --all
