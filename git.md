@@ -33,3 +33,6 @@
   * git merge testing (with the current branch master)
   * git branch -d testing (delete the branch)
   
+
+## Removing definitively a file
+  * git filter-branch --force --index-filter \ 'git rm --cached --ignore-unmatch report2-2017-05/Misc/2017-05-30-AA-differences-between-Mercator-and-Drakkar-settings-for-ORCA12.pdf'
