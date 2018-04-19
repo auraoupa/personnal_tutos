@@ -37,3 +37,12 @@
 ## Removing definitively a file
   * git filter-branch --force --index-filter \ 'git rm --cached --ignore-unmatch report2-2017-05/Misc/2017-05-30-AA-differences-between-Mercator-and-Drakkar-settings-for-ORCA12.pdf'
   * git push origin --force --all
+  
+  
+## Contribute to another person's repo
+
+  * git checkout -b new_branch
+  * les modifs
+  * git commit -am "comment"
+  * git push origin new_branch
+  * sur github cliquer sur open pull request
