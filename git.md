@@ -51,3 +51,13 @@
 
   * après un git pull : git diff HEAD pour voir les diffs entre le depot distant et le master local
   * git diff --staged
+  * git diff branch1 branch2
+  
+## Log
+
+  * git log
+  * git log --author=bob
+  * git log --pretty=oneline
+  * git log --graph --oneline --decorate --all
+  * git log --name-status
+
