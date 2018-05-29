@@ -74,3 +74,5 @@
 ## Mettre de coté des modifs pour un moment
   * git stash
   * git stash apply
+
+## On peut pusher vers différents repertoires git
