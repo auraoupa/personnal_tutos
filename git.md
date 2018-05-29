@@ -70,3 +70,7 @@
   * git pull
   * si conflit d'abord git fetch puis git merge origin/master ?
   * si en local j'ai developpé dans une branche et que je veux mettre à jour le depot distant : git rebase origin/master  
+  
+## Mettre de coté des modifs pour un moment
+  * git stash
+  * git stash apply
