@@ -67,6 +67,7 @@ astuce générale : git status donne de bonnes indications de ce qu'il faut fair
   * git log --pretty=oneline
   * git log --graph --oneline --decorate --all
   * git log --name-status
+  * dans .gitconfig [alias] lo = log --graph --all --decorate --date-order pour un beau git log
 
 ## Version
   * git checkout bb92e :  pour revenir à un état précédent
@@ -92,4 +93,7 @@ astuce générale : git status donne de bonnes indications de ce qu'il faut fair
         * on doit ouvrir le fichier et le modifier en fonction de ce qu'on veut garder comme modifs
         * git add + git commit finalise le merge
       
-  
+## Formation
+  * https://doc.cc.in2p3.fr/developpements:formation:git
+  * https://onlywei.github.io
+  * https://try.github.io
