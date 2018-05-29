@@ -46,3 +46,8 @@
   * git commit -am "comment"
   * git push origin new_branch
   * sur github cliquer sur open pull request
+  
+## Diff
+
+  * après un git pull : git diff HEAD pour voir les diffs entre le depot distant et le master local
+  * git diff --staged
