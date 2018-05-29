@@ -76,3 +76,13 @@
   * git stash apply/pop cf https://git-scm.com/docs/git-stash
 
 ## On peut pusher vers différents repertoires git
+
+## Resolution d'un conflit
+  * au cours d'un pull ou merge de branche soit 
+      * auto-merge et c'est ok
+      * CONFLICT Automatic merge failed alors 
+        * les diffs sont reportées dans le fichier incriminé
+        * on doit ouvrir le fichier et le modifier en fonction de ce qu'on veut garder comme modifs
+        * git add + git commit finalise le merge
+      
+  
