@@ -1,5 +1,7 @@
 # How to use git
 
+astuce générale : git status donne de bonnes indications de ce qu'il faut faire
+
 ## Transform a repository into a git rep
 
   * git init
