@@ -34,7 +34,11 @@ astuce générale : git status donne de bonnes indications de ce qu'il faut fair
   * git checkout master
   * git merge testing (with the current branch master)
   * git branch -d testing (delete the branch)
-  
+  * pour merger les chosees lineairement, utiliser rebase :
+     * on merge une premiere branche dans master
+     * on se place sur l'autre branche
+     * git rebase master
+     * resoudre les conflits si il y a puis git add et git rebase --continue
 
 ## Removing definitively a file
   * git filter-branch --force --index-filter \ 'git rm --cached --ignore-unmatch report2-2017-05/Misc/2017-05-30-AA-differences-between-Mercator-and-Drakkar-settings-for-ORCA12.pdf'
