@@ -39,6 +39,7 @@ astuce générale : git status donne de bonnes indications de ce qu'il faut fair
      * on se place sur l'autre branche
      * git rebase master
      * resoudre les conflits si il y a puis git add et git rebase --continue
+     * retourner sur master et merger la branche qui est en fast-forward maintenant
 
 ## Removing definitively a file
   * git filter-branch --force --index-filter \ 'git rm --cached --ignore-unmatch report2-2017-05/Misc/2017-05-30-AA-differences-between-Mercator-and-Drakkar-settings-for-ORCA12.pdf'
