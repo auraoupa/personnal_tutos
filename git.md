@@ -48,7 +48,7 @@
   * sur github cliquer sur open pull request
   
 ## Diff
-
+  * par defaut un diff est entre le workspace et l'index (là où vont les add), si HEAD entre workdspace et local repository
   * après un git pull : git diff HEAD pour voir les diffs entre le depot distant et le master local
   * git diff --staged
   * git diff branch1 branch2
