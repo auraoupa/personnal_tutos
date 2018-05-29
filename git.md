@@ -61,3 +61,12 @@
   * git log --graph --oneline --decorate --all
   * git log --name-status
 
+## Version
+  * git checkout bb92e :  pour revenir à un état précédent
+  * git reset HEAD^(ou nom d'une version) :  abandonner des modifs commitées pas pushées
+  * git revert bb92e : abandonner modifs commitées et pushées => c'est un nouveau commit
+  
+## Faire un pull d'un depot distant
+  * git pull
+  * si conflit d'abord git fetch puis git merge origin/master ?
+  * si en local j'ai developpé dans une branche et que je veux mettre à jour le depot distant : git rebase origin/master  
