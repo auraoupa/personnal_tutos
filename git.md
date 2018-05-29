@@ -73,6 +73,6 @@
   
 ## Mettre de coté des modifs pour un moment
   * git stash
-  * git stash apply
+  * git stash apply/pop cf https://git-scm.com/docs/git-stash
 
 ## On peut pusher vers différents repertoires git
