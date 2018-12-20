@@ -95,6 +95,6 @@ astuce générale : git status donne de bonnes indications de ce qu'il faut fair
       
 ## Formation
   * https://doc.cc.in2p3.fr/developpements:formation:git
-  * https://onlywei.github.io
+  * https://onlywei.github.io/explain-git-with-d3/
   * https://try.github.io
   * https://learngitbranching.js.org/
